@@ -2,5 +2,49 @@ body {
   background-image: url('../public/image/Background.png');
   background-size: cover;
   background-color: #2F1893;
-  width: 100%;
+  padding: 2rem;
+}
+
+.App-header {
+  display: flex;
+  color: #Ffff;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+  .header-title {
+    color: #Ffff;
+    width: 160px;
+    font: 'DM Sans';
+    font-weight: 600;
+  }
+
+  .header-itens {
+    
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFF;
+    text-decoration: none;
+  }
+
+  .header-button {
+    
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFF;
+    text-decoration: none;
+  }
+
+  .button-sign {
+    color: #FFFF;
+    border: 2px solid;
+    opacity: 0.3;
+    background-color: none;
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+  }
 }
