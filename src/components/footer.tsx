@@ -4,7 +4,7 @@ import React from "react";
 const Footer: React.FC = () => {
     return (
         <div>
-            <p>OR SIGN UP WITH</p>
+            <p>Or Sign Up with</p>
             <Button></Button>
             <Button></Button>
             <Button></Button>
